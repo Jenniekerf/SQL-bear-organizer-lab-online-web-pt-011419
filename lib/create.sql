@@ -5,5 +5,5 @@ gender CHAR(1),
 COLOR TEXT,
 temperament TEXT,
 alive BOOLEAN,
-id INTEGER PRIMARY KEY
+ "SELECT * FROM bears WHERE bears.name IS NULL;"
 );
